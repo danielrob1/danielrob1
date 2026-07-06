@@ -1,0 +1,75 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente del nombre -->
+    <linearGradient id="gradName" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Glow principal -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow más intenso -->
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="14" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="300" fill="#0d1117"/>
+
+  <!-- Nombre con efecto neon + parpadeo -->
+  <text x="600" y="140"
+        font-family="'Courier New', monospace"
+        font-size="54"
+        font-weight="bold"
+        fill="url(#gradName)"
+        text-anchor="middle"
+        filter="url(#strongGlow)"
+        opacity="1">
+    Daniel Robles Camazón
+    <animate attributeName="opacity"
+             values="1;0.85;1;0.75;1;0.9;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <!-- Capa extra para reforzar el parpadeo -->
+  <text x="600" y="140"
+        font-family="'Courier New', monospace"
+        font-size="54"
+        font-weight="bold"
+        fill="url(#gradName)"
+        text-anchor="middle"
+        filter="url(#glow)"
+        opacity="0.9">
+    Daniel Robles Camazón
+    <animate attributeName="opacity"
+             values="0.95;0.4;0.95;0.6;1;0.5;0.95"
+             dur="1.8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <!-- Stack -->
+  <text x="600" y="190"
+        font-family="'Courier New', monospace"
+        font-size="22"
+        fill="#c9d1d9"
+        text-anchor="middle"
+        opacity="0.9">
+    Data Engineer | Software Developer | Python | Java | AWS | Azure
+  </text>
+</svg>
