@@ -69,7 +69,7 @@
       <sub><b>Apache Airflow</b></sub>
     </td>
     <td align="center" width="100">
-      <img src="https://cdn.simpleicons.org/apachekafka/231F20" width="45" height="45" alt="Kafka" />
+      <img src="https://skillicons.dev/icons?i=kafka" width="45" height="45" alt="Kafka" />
       <br>
       <sub><b>Apache Kafka</b></sub>
     </td>
@@ -161,8 +161,3 @@
     </td>
   </tr>
 </table>
-
-
-
-
-
