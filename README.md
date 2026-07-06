@@ -161,3 +161,8 @@
     </td>
   </tr>
 </table>
+
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=danielrob1&theme=tokyonight" alt="Repos por Lenguaje" height="180"/>
+</div>

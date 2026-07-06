@@ -7,6 +7,32 @@
       <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
     </linearGradient>
 
+    <!-- Gradiente para línea decorativa -->
+    <linearGradient id="gradLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#6366F1;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#EC4899;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0" />
+    </linearGradient>
+
+    <!-- Glows de fondo -->
+    <radialGradient id="bgGlowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.18" />
+      <stop offset="50%" style="stop-color:#6366F1;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+
+    <radialGradient id="bgGlowLeft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.14" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+
+    <radialGradient id="bgGlowRight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:0.14" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+
     <!-- Glow principal -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
@@ -26,10 +52,47 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Blur suave para fondos -->
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <!-- Patrón de rejilla sutil -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="1" opacity="0.18"/>
+    </pattern>
   </defs>
 
-  <!-- Fondo -->
+  <!-- Fondo base -->
   <rect width="1200" height="300" fill="#0d1117"/>
+
+  <!-- Rejilla tech muy sutil -->
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- Glows ambientales -->
+  <ellipse cx="600" cy="145" rx="330" ry="95" fill="url(#bgGlowCenter)" filter="url(#softBlur)">
+    <animate attributeName="opacity" values="0.7;1;0.75;1;0.7" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <circle cx="170" cy="70" r="120" fill="url(#bgGlowLeft)" filter="url(#softBlur)" opacity="0.8">
+    <animate attributeName="opacity" values="0.45;0.75;0.45" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1040" cy="235" r="140" fill="url(#bgGlowRight)" filter="url(#softBlur)" opacity="0.8">
+    <animate attributeName="opacity" values="0.45;0.75;0.45" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Pequeños puntos sutiles decorativos -->
+  <circle cx="250" cy="55" r="2" fill="#8B5CF6" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="930" cy="80" r="2" fill="#EC4899" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="985" cy="215" r="1.8" fill="#6366F1" opacity="0.45">
+    <animate attributeName="opacity" values="0.15;0.65;0.15" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Nombre con efecto neon + parpadeo -->
   <text x="600" y="140"
@@ -72,4 +135,9 @@
         opacity="0.9">
     Data Engineer | Software Developer | Python | Java | AWS | Azure
   </text>
+
+  <!-- Línea decorativa inferior sutil -->
+  <line x1="330" y1="225" x2="870" y2="225" stroke="url(#gradLine)" stroke-width="2" opacity="0.65" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.35;0.8;0.35" dur="4s" repeatCount="indefinite"/>
+  </line>
 </svg>
