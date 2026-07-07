@@ -83,7 +83,7 @@
     <td align="center" width="100">
       <img src="https://skillicons.dev/icons?i=aws" width="45" height="45" alt="aws" />
       <br>
-      <sub><b>Amazon Web Service (AWS)</b></sub>
+      <sub><b>Amazon Web Services (AWS)</b></sub>
     </td>
      <td align="center" width="100">
       <img src="https://skillicons.dev/icons?i=azure" width="45" height="45" alt="aws" />
