@@ -163,6 +163,36 @@
 </table>
 
 
+## 🎯 Proyectos Destacados
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=danielrob1&theme=tokyonight" alt="Repos por Lenguaje" height="180"/>
 </div>
+
+<div align="center">
+
+### 💾 Ingeniería de datos
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
+          <img src="./assets/comparativa_paises.png" alt="SkyTracker Preview" width="100%" style="border-radius: 10px;"/>
+        </a>
+      </div>
+      <h3 align="center">✈ SkyTracker</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQL-3776AB?style=flat-square&logo=sql&logoColor=white"/>
+      </p>
+      <p align="center">Aplicación ETL completa construida con PySpark sobre Databricks. Recopila información en tiempo real de los aviones situados en el territorio español y la transforma para obtener métricas y estadísticas útiles para realizar análisis.</p>
+      <div align="center">
+        <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
+          <img src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Ver Proyecto"/>
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
