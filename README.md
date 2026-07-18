@@ -194,5 +194,29 @@
         </a>
       </div>
     </td>
+      <!-- EventRide -->
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://github.com/danielrob1/EventRide" target="_blank">
+          <img src="./assets/eventride_architecture.png" alt="EventRide Preview" width="100%" style="border-radius: 10px;"/>
+        </a>
+      </div>
+      <h3 align="center">🚕 EventRide</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+      </p>
+      <p align="center">
+        Proyecto end-to-end de Data Engineering para procesar reservas de viajes mediante cargas batch y streaming en tiempo real. Utiliza Azure Event Hubs, Azure Data Factory, ADLS Gen2 y Databricks para construir una arquitectura Medallion con capas Bronze, Silver y Gold, una tabla consolidada OBT y un modelo dimensional en estrella con dimensiones SCD Type 1 y Type 2.
+      </p>
+      <div align="center">
+        <a href="https://github.com/danielrob1/EventRide" target="_blank">
+          <img src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Ver Proyecto"/>
+        </a>
+      </div>
+    </td>
   </tr>
 </table>
