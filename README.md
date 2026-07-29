@@ -242,7 +242,7 @@
 </table>
 <br>
 <!-- ShopPulse centrado -->
-<table align="center" width="50%">
+<table align="center" width="30%">
   <tr>
     <td width="100%" valign="top">
       <div align="center">
