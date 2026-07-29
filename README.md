@@ -218,5 +218,47 @@
         </a>
       </div>
     </td>
+    <!-- ShopPulse -->
+<table align="center" width="50%">
+  <tr>
+    <td valign="top">
+      <div align="center">
+        <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
+          <img
+            src="./assets/shoppulse.png"
+            alt="ShopPulse Preview"
+            width="100%"
+            style="border-radius: 10px;"
+          />
+        </a>
+      </div>
+      <h3 align="center">🛒 ShopPulse</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white"/>
+      </p>
+      <p align="center">
+        Proyecto end-to-end de Data Engineering en AWS para procesar eventos
+        de pedidos de comercio electrónico en streaming. Integra API Gateway,
+        Lambda, Amazon MSK Serverless, AWS Glue Streaming, PySpark y Amazon S3
+        para construir una arquitectura Medallion con capas Bronze, Silver y
+        Gold. Los datos se transforman en un modelo dimensional en estrella,
+        consultable mediante Athena y Redshift Spectrum y cargado también en
+        tablas internas de Redshift Serverless.
+      </p>
+      <div align="center">
+        <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
+          <img
+            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+            alt="Ver Proyecto"
+          />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
   </tr>
 </table>
