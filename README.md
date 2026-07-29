@@ -163,21 +163,21 @@
 </table>
 
 
-## 🎯 Proyectos Destacados
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=danielrob1&theme=tokyonight" alt="Repos por Lenguaje" height="180"/>
-</div>
-
 <div align="center">
 
 ### 💾 Ingeniería de datos
 
-<table>
+<table width="100%">
   <tr>
+    <!-- SkyTracker -->
     <td width="50%" valign="top">
       <div align="center">
         <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
-          <img src="./assets/comparativa_paises.png" alt="SkyTracker Preview" width="100%" style="border-radius: 10px;"/>
+          <img
+            src="./assets/comparativa_paises.png"
+            alt="SkyTracker Preview"
+            width="100%"
+          />
         </a>
       </div>
       <h3 align="center">✈ SkyTracker</h3>
@@ -187,18 +187,30 @@
         <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
         <img src="https://img.shields.io/badge/SQL-3776AB?style=flat-square&logo=sql&logoColor=white"/>
       </p>
-      <p align="center">Aplicación ETL completa construida con PySpark sobre Databricks. Recopila información en tiempo real de los aviones situados en el territorio español y la transforma para obtener métricas y estadísticas útiles para realizar análisis.</p>
+      <p align="center">
+        Aplicación ETL completa construida con PySpark sobre Databricks.
+        Recopila información en tiempo real de los aviones situados en el
+        territorio español y la transforma para obtener métricas y
+        estadísticas útiles para realizar análisis.
+      </p>
       <div align="center">
         <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
-          <img src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Ver Proyecto"/>
+          <img
+            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+            alt="Ver Proyecto"
+          />
         </a>
       </div>
     </td>
-      <!-- EventRide -->
+    <!-- EventRide -->
     <td width="50%" valign="top">
       <div align="center">
         <a href="https://github.com/danielrob1/EventRide" target="_blank">
-          <img src="./assets/eventride_architecture.png" alt="EventRide Preview" width="100%" style="border-radius: 10px;"/>
+          <img
+            src="./assets/eventride_architecture.png"
+            alt="EventRide Preview"
+            width="100%"
+          />
         </a>
       </div>
       <h3 align="center">🚕 EventRide</h3>
@@ -210,25 +222,35 @@
         <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
       </p>
       <p align="center">
-        Proyecto end-to-end de Data Engineering para procesar reservas de viajes mediante cargas batch y streaming en tiempo real. Utiliza Azure Event Hubs, Azure Data Factory, ADLS Gen2 y Databricks para construir una arquitectura Medallion con capas Bronze, Silver y Gold, una tabla consolidada OBT y un modelo dimensional en estrella con dimensiones SCD Type 1 y Type 2.
+        Proyecto end-to-end de Data Engineering para procesar reservas de
+        viajes mediante cargas batch y streaming en tiempo real. Utiliza Azure
+        Event Hubs, Azure Data Factory, ADLS Gen2 y Databricks para construir
+        una arquitectura Medallion con capas Bronze, Silver y Gold, una tabla
+        consolidada OBT y un modelo dimensional en estrella con dimensiones
+        SCD Type 1 y Type 2.
       </p>
       <div align="center">
         <a href="https://github.com/danielrob1/EventRide" target="_blank">
-          <img src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Ver Proyecto"/>
+          <img
+            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+            alt="Ver Proyecto"
+          />
         </a>
       </div>
     </td>
-    <!-- ShopPulse -->
+  </tr>
+</table>
+<br>
+<!-- ShopPulse centrado -->
 <table align="center" width="50%">
   <tr>
-    <td valign="top">
+    <td width="100%" valign="top">
       <div align="center">
         <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
           <img
             src="./assets/shoppulse.png"
             alt="ShopPulse Preview"
             width="100%"
-            style="border-radius: 10px;"
           />
         </a>
       </div>
@@ -260,5 +282,4 @@
     </td>
   </tr>
 </table>
-  </tr>
-</table>
+</div>
