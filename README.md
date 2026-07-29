@@ -167,118 +167,127 @@
 
 ### 💾 Ingeniería de datos
 
+<!-- Contenedor general -->
 <table width="100%">
   <tr>
-    <!-- SkyTracker -->
-    <td width="50%" valign="top">
-      <div align="center">
-        <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
-          <img
-            src="./assets/comparativa_paises.png"
-            alt="SkyTracker Preview"
-            width="100%"
-          />
-        </a>
-      </div>
-      <h3 align="center">✈ SkyTracker</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQL-3776AB?style=flat-square&logo=sql&logoColor=white"/>
-      </p>
-      <p align="center">
-        Aplicación ETL completa construida con PySpark sobre Databricks.
-        Recopila información en tiempo real de los aviones situados en el
-        territorio español y la transforma para obtener métricas y
-        estadísticas útiles para realizar análisis.
-      </p>
-      <div align="center">
-        <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
-          <img
-            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
-            alt="Ver Proyecto"
-          />
-        </a>
-      </div>
-    </td>
-    <!-- EventRide -->
-    <td width="50%" valign="top">
-      <div align="center">
-        <a href="https://github.com/danielrob1/EventRide" target="_blank">
-          <img
-            src="./assets/eventride_architecture.png"
-            alt="EventRide Preview"
-            width="100%"
-          />
-        </a>
-      </div>
-      <h3 align="center">🚕 EventRide</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-      </p>
-      <p align="center">
-        Proyecto end-to-end de Data Engineering para procesar reservas de
-        viajes mediante cargas batch y streaming en tiempo real. Utiliza Azure
-        Event Hubs, Azure Data Factory, ADLS Gen2 y Databricks para construir
-        una arquitectura Medallion con capas Bronze, Silver y Gold, una tabla
-        consolidada OBT y un modelo dimensional en estrella con dimensiones
-        SCD Type 1 y Type 2.
-      </p>
-      <div align="center">
-        <a href="https://github.com/danielrob1/EventRide" target="_blank">
-          <img
-            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
-            alt="Ver Proyecto"
-          />
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-<br>
-<!-- ShopPulse centrado -->
-<table align="center" width="50%">
-  <tr>
-    <td width="100%" valign="top">
-      <div align="center">
-        <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
-          <img
-            src="./assets/shoppulse.png"
-            alt="ShopPulse Preview"
-            width="100%"
-          />
-        </a>
-      </div>
-      <h3 align="center">🛒 ShopPulse</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white"/>
-      </p>
-      <p align="center">
-        Proyecto end-to-end de Data Engineering en AWS para procesar eventos
-        de pedidos de comercio electrónico en streaming. Integra API Gateway,
-        Lambda, Amazon MSK Serverless, AWS Glue Streaming, PySpark y Amazon S3
-        para construir una arquitectura Medallion con capas Bronze, Silver y
-        Gold. Los datos se transforman en un modelo dimensional en estrella,
-        consultable mediante Athena y Redshift Spectrum y cargado también en
-        tablas internas de Redshift Serverless.
-      </p>
-      <div align="center">
-        <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
-          <img
-            src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
-            alt="Ver Proyecto"
-          />
-        </a>
-      </div>
+    <td>
+      <!-- Primera fila: SkyTracker + EventRide -->
+      <table width="100%">
+        <tr>
+          <!-- SkyTracker -->
+          <td width="50%" valign="top">
+            <div align="center">
+              <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
+                <img
+                  src="./assets/comparativa_paises.png"
+                  alt="SkyTracker Preview"
+                  width="100%"
+                />
+              </a>
+            </div>
+            <h3 align="center">✈ SkyTracker</h3>
+            <p align="center">
+              <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+              <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
+              <img src="https://img.shields.io/badge/SQL-3776AB?style=flat-square&logo=sql&logoColor=white"/>
+            </p>
+            <p align="center">
+              Aplicación ETL completa construida con PySpark sobre Databricks.
+              Recopila información en tiempo real de los aviones situados en
+              el territorio español y la transforma para obtener métricas y
+              estadísticas útiles para realizar análisis.
+            </p>
+            <div align="center">
+              <a href="https://github.com/danielrob1/SkyTracker" target="_blank">
+                <img
+                  src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+                  alt="Ver Proyecto"
+                />
+              </a>
+            </div>
+          </td>
+          <!-- EventRide -->
+          <td width="50%" valign="top">
+            <div align="center">
+              <a href="https://github.com/danielrob1/EventRide" target="_blank">
+                <img
+                  src="./assets/eventride_architecture.png"
+                  alt="EventRide Preview"
+                  width="100%"
+                />
+              </a>
+            </div>
+            <h3 align="center">🚕 EventRide</h3>
+            <p align="center">
+              <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+              <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+            </p>
+            <p align="center">
+              Proyecto end-to-end de Data Engineering para procesar reservas
+              de viajes mediante cargas batch y streaming en tiempo real.
+              Utiliza Azure Event Hubs, Azure Data Factory, ADLS Gen2 y
+              Databricks para construir una arquitectura Medallion con capas
+              Bronze, Silver y Gold, una tabla consolidada OBT y un modelo
+              dimensional en estrella con dimensiones SCD Type 1 y Type 2.
+            </p>
+            <div align="center">
+              <a href="https://github.com/danielrob1/EventRide" target="_blank">
+                <img
+                  src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+                  alt="Ver Proyecto"
+                />
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br/>
+      <!-- Segunda fila: ShopPulse centrado y al 50% -->
+      <table width="50%" align="center">
+        <tr>
+          <td width="100%" valign="top">
+            <div align="center">
+              <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
+                <img
+                  src="./assets/shoppulse.png"
+                  alt="ShopPulse Preview"
+                  width="100%"
+                />
+              </a>
+            </div>
+            <h3 align="center">🛒 ShopPulse</h3>
+            <p align="center">
+              <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+              <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+              <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white"/>
+            </p>
+            <p align="center">
+              Proyecto end-to-end de Data Engineering en AWS para procesar
+              eventos de pedidos de comercio electrónico en streaming.
+              Integra API Gateway, Lambda, Amazon MSK Serverless, AWS Glue
+              Streaming, PySpark y Amazon S3 para construir una arquitectura
+              Medallion con capas Bronze, Silver y Gold. Los datos se
+              transforman en un modelo dimensional en estrella, consultable
+              mediante Athena y Redshift Spectrum y cargado también en tablas
+              internas de Redshift Serverless.
+            </p>
+            <div align="center">
+              <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
+                <img
+                  src="https://img.shields.io/badge/Ver_Proyecto-6366F1?style=for-the-badge&logo=github&logoColor=white"
+                  alt="Ver Proyecto"
+                />
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
