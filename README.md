@@ -167,6 +167,7 @@
 
 ### 💾 Ingeniería de datos
 
+<!-- Fila 1: SkyTracker y EventRide -->
 <table width="100%">
   <tr>
     <!-- SkyTracker -->
@@ -240,11 +241,14 @@
     </td>
   </tr>
 </table>
+
 <br>
-<!-- ShopPulse centrado -->
-<table align="center" width="30%">
+
+<!-- Fila 2: ShopPulse centrado exactamente con el mismo ancho que las tarjetas superiores -->
+<table width="100%">
   <tr>
-    <td width="100%" valign="top">
+    <td width="25%"></td> <!-- Espaciador izquierdo -->
+    <td width="50%" valign="top">
       <div align="center">
         <a href="https://github.com/danielrob1/ShopPulse" target="_blank">
           <img
@@ -280,6 +284,7 @@
         </a>
       </div>
     </td>
+    <td width="25%"></td> <!-- Espaciador derecho -->
   </tr>
 </table>
 </div>
